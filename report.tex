@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,uplatex]{jsarticle}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{ascmac}
+\usepackage{listings}
+\usepackage{colortbl}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{39\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.5in}
+\setlength{\headsep}{0.3in}
+
+%
+\pagestyle{empty}
+\newcommand{\todayd}{\the\year/\the\month/\the\day}
+
+%
+\lstset{
+	basicstyle={\ttfamily}, %書体の指定
+	frame=single, %フレームの指定
+	breaklines=true, %行が長くなった場合の改行
+	tabsize=4 %Tabを何文字幅にするかの指定
+}
+%
+\begin{document}
+	\noindent \hfill  \todayd\ xx xx
+	\begin{center}
+		\LARGE\textbf{xxxxxxxxxxxxxxxxxx}
+	\end{center}
+	\section{背景}
+	
+	\section{目的}
+	
+	\section{計画}
+	
+	\begin{center}
+		\begin{table}[h]
+			\begin{tabular}{|p{43mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|p{7.25mm}|}
+				\hline
+				\hfil 項目 \hfil& \hfil 7/B \hfil & \hfil 7/M \hfil & \hfil 7/E \hfil & \hfil 8/B \hfil & \hfil 8/M \hfil & \hfil 8/E \hfil & \hfil 9/B \hfil & \hfil 9/M \hfil \\ \hline
+	%			&     &     &     &     &     &     &     &     \\ \hline
+				&     &     &     &     &     &     &     &     \\ \hline
+				&     &     &     &     &     & 	&     &     \\ \hline
+			\end{tabular}
+		\end{table}
+	\end{center}
+\end{document}
